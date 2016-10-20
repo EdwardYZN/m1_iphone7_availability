@@ -8,7 +8,7 @@ if grep $pattern test.html
 	then
 		/usr/bin/osascript <<EOT
 		tell application "Messages"
-			send "Found iphone 7 Plus 128G Jet Black at $url" to buddy "yangzhennanedward@gmail.com" of (service 1 whose service type is iMessage)
+			send "Found iphone 7 Plus 128G Jet Black at $url" to buddy "your imessage id" of (service 1 whose service type is iMessage)
 		end tell
 EOT
 exit 0
